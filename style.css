@@ -2,16 +2,16 @@
 :root {
   --bg: #f4f6fb;
   --card-bg: #ffffff;
-  --text: #1f2933;
-  --accent: #2563eb;
+  --text: #72b7fb;
+  --accent: #394050;
 }
  
 /* ธีมมืด: สลับด้วยการเติม class ที่ <body> ผ่าน JS */
 body.dark {
   --bg: #919ebd;
   --card-bg: #1e293b;
-  --text: #e2e8f0;
-  --accent: #000000;
+  --text: #926dd6;
+  --accent: #8b8989;
 }
  
 /* ===== Layout ===== */
