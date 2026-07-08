@@ -14,7 +14,9 @@
 <body>
   <main class="card">
     <img class="card__avatar" src="https://avatars.githubusercontent.com/u/9919?v=4" alt="รูปโปรไฟล์">
-    <h1 class="card__name">ชื่อ ธนวรรธน์ นามสกุล บุญรอด</h1>
+    
+    <h1 id="card-name" class="card__name"> </h1>
+    
     <p class="card__title">นักศึกษาวิศวกรรมคอมพิวเตอร์</p>
     <p class="card__bio">กำลังเรียนรู้ Full-stack Development และ DevOps</p>
  
@@ -23,6 +25,10 @@
       <li><a href="mailto:thanawat.bo@ksu.ac.th">Email</a></li>
     </ul>
  
+    <div style="margin: 15px 0;">
+      <input type="text" id="name-input" placeholder="พิมพ์ชื่อใหม่ตรงนี้..." style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; width: 80%; font-family: 'Noto Sans Thai', sans-serif; text-align: center;">
+    </div>
+
     <button id="theme-toggle" class="card__button">🌙 โหมดกลางคืน</button>
  
     <p class="card__test-text" style="margin-top: 15px; font-size: 0.95rem; color: #555;">ทดสอบวิชาหัวข้อซอฟต์แวร์ไปให้สุด</p>
